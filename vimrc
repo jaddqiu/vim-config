@@ -28,7 +28,7 @@ Plugin 'scrooloose/syntastic'
 "auto-completion stuff
 "Plugin 'klen/python-mode'
 "Plugin 'Valloric/YouCompleteMe'
-Plugin 'klen/rope-vim'
+"Plugin 'klen/rope-vim'
 "Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
 ""code folding
@@ -118,6 +118,9 @@ set backspace=indent,eol,start
 
 "Folding based on indentation:
 autocmd FileType python set foldmethod=indent
+"foldlevel 99
+set foldlevel=99
+
 "use space to open folds
 nnoremap <space> za 
 "----------Stop python PEP 8 stuff--------------
