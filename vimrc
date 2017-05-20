@@ -27,7 +27,7 @@ Plugin 'scrooloose/syntastic'
 
 "auto-completion stuff
 "Plugin 'klen/python-mode'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'klen/rope-vim'
 "Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
@@ -44,7 +44,7 @@ filetype plugin indent on    " enables filetype detection
 let g:SimpylFold_docstring_preview = 1
 
 "autocomplete
-let g:ycm_autoclose_preview_window_after_completion=1
+"let g:ycm_autoclose_preview_window_after_completion=1
 
 "custom keys
 let mapleader=" "
@@ -124,3 +124,16 @@ nnoremap <space> za
 
 "js stuff"
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+
+
+" split staff
+set splitbelow
+set splitright
+
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
